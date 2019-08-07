@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    show-sql: true
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+  datasource:
+    username: root
+    password: toor
+    url: jdbc:mysql://localhost:3308/book_store
+server:
+  port: 9090
