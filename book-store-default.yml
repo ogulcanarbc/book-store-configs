@@ -6,8 +6,8 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    username: root
-    password: toor
+    username: ogulcan
+    password: 1234ogul
     url: jdbc:mysql://localhost:3308/book_store
 server:
   port: 9090
