@@ -9,5 +9,10 @@ spring:
     username: ogulcan
     password: 1234ogul
     url: jdbc:mysql://localhost:3308/book_store
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    
 server:
   port: 9090
