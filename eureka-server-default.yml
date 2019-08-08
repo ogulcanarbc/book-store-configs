@@ -1,0 +1,9 @@
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+  client:
+    enabled: false  #kendi kendine register olmaması için
+
+server:
+  port: 8761
